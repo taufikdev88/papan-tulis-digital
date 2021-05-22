@@ -9,9 +9,22 @@ sudo zerotier-cli join 93afae59639d273c
 # installasi di raspberry pi
 # pindah di folder /home/pi dan rename agar gampang
 # lalu buat sebuah file .sh di /home/pi
-# 
-# nano run.sh
+#
+# -> cd /home/pi 
+# -> nano run.sh
 #
 # isinya:
+#
 # cd /home/pi/*namafolderaplikasi*
 # python3 main.py
+# 
+# simpan dan keluar (ctrl+o , ctrl+x)
+# set agar file sh bisa di jalankan dengan cara
+# -> chmod +x run.sh
+#
+# set autostart nya
+# -> sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+#
+# tambahkan di paling bawah
+#
+# @/home/pi/run.sh
