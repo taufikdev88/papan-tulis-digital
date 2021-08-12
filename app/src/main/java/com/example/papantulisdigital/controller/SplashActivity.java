@@ -32,7 +32,7 @@ public class SplashActivity extends AppCompatActivity {
     boolean flagConnecting = false;
 
     public class ConnectThread implements Runnable {
-        private static final String IP_ADDR = "10.144.73.7";
+        private static final String IP_ADDR = "10.144.12.179";
         private static final int PORT = 5000;
 
         @Override
